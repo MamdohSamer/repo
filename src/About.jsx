@@ -3,6 +3,7 @@ import logoo from "/images/meat-4.png";
 import logoa from "/images/map.jpg";
 import logob from "/images/deltaservice.png";
 import logoc from "/images/medal.png";
+import logod from "/images/7630510.png";
 import './About.css'
 
 
@@ -21,7 +22,7 @@ function About() {
           </div>
   
           <div className="money">
-            <img src="./images/7630510.png" alt="" width="100px" />
+            <img src={logod} alt="" width="100px" />
             <p className="amounts">$0</p>
             <p className="amounts">in revenue created.</p>
           </div>
