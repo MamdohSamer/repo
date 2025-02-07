@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logoo from "/images/meat-4.png";
 import logoa from "/images/map.jpg";
 import logob from "/images/deltaservice.png";
+import logoc from "/images/medal.png";
 import './About.css'
 
 
@@ -48,13 +49,13 @@ function About() {
                     <p>Our Service</p>
                 </div>
                 <div className="icon-box">
-                    <img src="./images/medal.png" alt=""/>
+                    <img src={logoc} alt=""/>
 
 
                     <p>Quality</p>
                  </div>
                 <div className="icon-box">
-                    <img src="./images/meat-4.png" alt="" id="Service"/>
+                    <img src={logoo} alt="" id="Service"/>
                     <p >Fresh</p> 
                 </div>
             </div>
