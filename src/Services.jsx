@@ -15,7 +15,7 @@ function Services() {
             <p >You can count on Beefilo to deliver the freshest, highest-quality meats with exceptional reliability and care.</p>
             <div className="ab three del"> 
                 <div className="icon-box">
-                    <img src="{logo} alt=""/>
+                    <img src={logo} alt=""/>
                     <p>Establishing Convenient Delivery Points for Fresh Meat</p>
                     <p>Through our dedicated delivery team, we bring fresh meat directly to your doorstep after scheduling an appointment, ensuring convenience and quality.</p>
 
