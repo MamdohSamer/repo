@@ -1,6 +1,9 @@
 
 import { useState } from 'react'
 import './Services.css'
+import logo from "/images/delivery-truck.png";
+import logoa from "/images/shop.png";
+import logob from "/images/fast-food.png";
 
 
 
@@ -12,19 +15,19 @@ function Services() {
             <p >You can count on Beefilo to deliver the freshest, highest-quality meats with exceptional reliability and care.</p>
             <div className="ab three del"> 
                 <div className="icon-box">
-                    <img src="./images/delivery-truck.png" alt=""/>
+                    <img src="{logo} alt=""/>
                     <p>Establishing Convenient Delivery Points for Fresh Meat</p>
                     <p>Through our dedicated delivery team, we bring fresh meat directly to your doorstep after scheduling an appointment, ensuring convenience and quality.</p>
 
                 </div>
                 <div className="icon-box">
-                    <img src="./images/shop.png" alt=""/>
+                    <img src={logoa} alt=""/>
                     <p className="marr">Creating Fixed Delivery Points for Fresh Meat</p>
                     <p>By partnering with small shops across urban, suburban, and rural areas, we make it easy for households to exchange used cooking oil for cash.</p>
 
                  </div>
                 <div className="icon-box">
-                    <img src="./images/fast-food.png" alt="" />
+                    <img src={logob} alt="" />
                     <p >Sourcing Fresh Meat from Trusted Farms</p> 
                     <p id="Contact US">If you are a restaurant, butcher, or grocery owner, Beefilo delivers fresh, premium-quality meats right to your door, supporting your business with reliability and sustainability.</p>
 
