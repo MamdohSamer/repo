@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import logoo from "/images/meat-4.png";
+import logoa from "/images/map.jpg";
+import logob from "/images/deltaservice.png";
 import './About.css'
 
 
@@ -37,12 +39,12 @@ function About() {
             <br />
             This positions Beefilo as a leader in sustainable and customer-focused meat distribution.
           </p>
-          <img src="./images/map.jpg" alt="" width="45%" id="map" />
+          <img src={logoa} alt="map" width="45%" id="map" />
         </div>
         <h2 className="who">Who We Are</h2>
             <div className="ab three"> 
                 <div className="icon-box">
-                    <img src="./images/deltaservice.png" alt=""/>
+                    <img src={logob} alt=""/>
                     <p>Our Service</p>
                 </div>
                 <div className="icon-box">
