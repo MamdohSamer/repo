@@ -1,9 +1,0 @@
-.container {
-    width: 95%;
-    margin: auto;
-    height: 2200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
