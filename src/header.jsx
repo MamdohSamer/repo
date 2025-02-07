@@ -4,14 +4,14 @@ import './header.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-
+import logo from /images/Red Circle Steak House Logo.png
 
 function Header() {
 
   return (
     <div>
       <header>
-        <a href="#first"><img src="Red Circle Steak House Logo.png" alt="icon" className="iconn" width="90px"/></a>
+        <a href="#first"><img src={logo} alt="icon" className="iconn" width="90px"/></a>
         <div className="tabs">
             <a href="#first">Home</a>
             <a href="#About">About</a>
