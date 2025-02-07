@@ -4,7 +4,7 @@ import './header.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import logo from /images/Red Circle Steak House Logo.png
+import logo from "/images/Red Circle Steak House Logo.png";
 
 function Header() {
 
