@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import logoo from "/images/meat-4.png";
 import './About.css'
 
 
@@ -12,7 +12,7 @@ function About() {
         </p>
         <div className="det">
           <div className="meat">
-            <img className="mar" src="./images/meat-4.png" alt="" width="80px" />
+            <img className="mar" src={logoo} alt="" width="80px" />
             <p className="amounts">9824911 Kg</p>
             <p className="amounts">of fresh meat delivered sustainably.</p>
           </div>
