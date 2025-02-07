@@ -11,7 +11,7 @@ function Header() {
   return (
     <div>
       <header>
-        <a href="#first"><img src="./Red Circle Steak House Logo.png" alt="icon" className="iconn" width="90px"/></a>
+        <a href="#first"><img src="Red Circle Steak House Logo.png" alt="icon" className="iconn" width="90px"/></a>
         <div className="tabs">
             <a href="#first">Home</a>
             <a href="#About">About</a>
