@@ -1,0 +1,68 @@
+html{
+  scroll-behavior: smooth;
+}
+header{
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  width: calc(100% - 200px);
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Alata", sans-serif;
+}
+.tabs a{
+  font-size: 17px;
+}
+.tabs{
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+#icon{
+  margin-left:3px; 
+  padding: 15px;
+  background-color: rgb(237, 239, 241);
+  border-radius: 3px;
+}
+@media (min-width : 550px) and (max-width:800px) {
+  .iconn{
+      width: 70px;
+  }
+  header{
+      width: calc(100% - 60px);
+      padding:20px 30px ;
+  }
+  #icon{
+    padding: 12px;
+  }
+
+}
+@media (min-width:100px)and (max-width :549px) {
+   p{
+      font-size: .8rem;
+      text-align: center;
+  }
+  .iconn{
+      width: 50px;
+  }
+  header{
+      width: calc(100% - 16px);
+      padding:20px 8px ;
+  }
+  #icon{
+    padding: 8px;
+  }
+  .tabs a{
+      font-size: .7rem;
+  }
+  .tabs{
+      width: 190px;
+  }
+}
